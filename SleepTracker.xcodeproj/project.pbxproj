@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		187438ED2AE79E2B0049C737 /* SleepTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187438EC2AE79E2B0049C737 /* SleepTrackerApp.swift */; };
+		187438EF2AE79E2B0049C737 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187438EE2AE79E2B0049C737 /* ContentView.swift */; };
+		187438F12AE79E2D0049C737 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187438F02AE79E2D0049C737 /* Assets.xcassets */; };
+		187438F42AE79E2D0049C737 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187438F32AE79E2D0049C737 /* Preview Assets.xcassets */; };
+		187438FE2AE79E2D0049C737 /* SleepTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187438FD2AE79E2D0049C737 /* SleepTrackerTests.swift */; };
+		187439082AE79E2D0049C737 /* SleepTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187439072AE79E2D0049C737 /* SleepTrackerUITests.swift */; };
+		1874390A2AE79E2D0049C737 /* SleepTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187439092AE79E2D0049C737 /* SleepTrackerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		187438FA2AE79E2D0049C737 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 187438E12AE79E2B0049C737 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 187438E82AE79E2B0049C737;
+			remoteInfo = SleepTracker;
+		};
+		187439042AE79E2D0049C737 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 187438E12AE79E2B0049C737 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 187438E82AE79E2B0049C737;
+			remoteInfo = SleepTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		187438E92AE79E2B0049C737 /* SleepTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SleepTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		187438EC2AE79E2B0049C737 /* SleepTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepTrackerApp.swift; sourceTree = "<group>"; };
+		187438EE2AE79E2B0049C737 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		187438F02AE79E2D0049C737 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		187438F32AE79E2D0049C737 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		187438F92AE79E2D0049C737 /* SleepTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SleepTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		187438FD2AE79E2D0049C737 /* SleepTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepTrackerTests.swift; sourceTree = "<group>"; };
+		187439032AE79E2D0049C737 /* SleepTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SleepTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		187439072AE79E2D0049C737 /* SleepTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepTrackerUITests.swift; sourceTree = "<group>"; };
+		187439092AE79E2D0049C737 /* SleepTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		187438E62AE79E2B0049C737 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187438F62AE79E2D0049C737 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187439002AE79E2D0049C737 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		187438E02AE79E2B0049C737 = {
+			isa = PBXGroup;
+			children = (
+				187438EB2AE79E2B0049C737 /* SleepTracker */,
+				187438FC2AE79E2D0049C737 /* SleepTrackerTests */,
+				187439062AE79E2D0049C737 /* SleepTrackerUITests */,
+				187438EA2AE79E2B0049C737 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		187438EA2AE79E2B0049C737 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				187438E92AE79E2B0049C737 /* SleepTracker.app */,
+				187438F92AE79E2D0049C737 /* SleepTrackerTests.xctest */,
+				187439032AE79E2D0049C737 /* SleepTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		187438EB2AE79E2B0049C737 /* SleepTracker */ = {
+			isa = PBXGroup;
+			children = (
+				187438EC2AE79E2B0049C737 /* SleepTrackerApp.swift */,
+				187438EE2AE79E2B0049C737 /* ContentView.swift */,
+				187438F02AE79E2D0049C737 /* Assets.xcassets */,
+				187438F22AE79E2D0049C737 /* Preview Content */,
+			);
+			path = SleepTracker;
+			sourceTree = "<group>";
+		};
+		187438F22AE79E2D0049C737 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				187438F32AE79E2D0049C737 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		187438FC2AE79E2D0049C737 /* SleepTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				187438FD2AE79E2D0049C737 /* SleepTrackerTests.swift */,
+			);
+			path = SleepTrackerTests;
+			sourceTree = "<group>";
+		};
+		187439062AE79E2D0049C737 /* SleepTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				187439072AE79E2D0049C737 /* SleepTrackerUITests.swift */,
+				187439092AE79E2D0049C737 /* SleepTrackerUITestsLaunchTests.swift */,
+			);
+			path = SleepTrackerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		187438E82AE79E2B0049C737 /* SleepTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1874390D2AE79E2D0049C737 /* Build configuration list for PBXNativeTarget "SleepTracker" */;
+			buildPhases = (
+				187438E52AE79E2B0049C737 /* Sources */,
+				187438E62AE79E2B0049C737 /* Frameworks */,
+				187438E72AE79E2B0049C737 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SleepTracker;
+			productName = SleepTracker;
+			productReference = 187438E92AE79E2B0049C737 /* SleepTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		187438F82AE79E2D0049C737 /* SleepTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187439102AE79E2D0049C737 /* Build configuration list for PBXNativeTarget "SleepTrackerTests" */;
+			buildPhases = (
+				187438F52AE79E2D0049C737 /* Sources */,
+				187438F62AE79E2D0049C737 /* Frameworks */,
+				187438F72AE79E2D0049C737 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				187438FB2AE79E2D0049C737 /* PBXTargetDependency */,
+			);
+			name = SleepTrackerTests;
+			productName = SleepTrackerTests;
+			productReference = 187438F92AE79E2D0049C737 /* SleepTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		187439022AE79E2D0049C737 /* SleepTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187439132AE79E2D0049C737 /* Build configuration list for PBXNativeTarget "SleepTrackerUITests" */;
+			buildPhases = (
+				187438FF2AE79E2D0049C737 /* Sources */,
+				187439002AE79E2D0049C737 /* Frameworks */,
+				187439012AE79E2D0049C737 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				187439052AE79E2D0049C737 /* PBXTargetDependency */,
+			);
+			name = SleepTrackerUITests;
+			productName = SleepTrackerUITests;
+			productReference = 187439032AE79E2D0049C737 /* SleepTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		187438E12AE79E2B0049C737 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					187438E82AE79E2B0049C737 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					187438F82AE79E2D0049C737 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 187438E82AE79E2B0049C737;
+					};
+					187439022AE79E2D0049C737 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 187438E82AE79E2B0049C737;
+					};
+				};
+			};
+			buildConfigurationList = 187438E42AE79E2B0049C737 /* Build configuration list for PBXProject "SleepTracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 187438E02AE79E2B0049C737;
+			productRefGroup = 187438EA2AE79E2B0049C737 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				187438E82AE79E2B0049C737 /* SleepTracker */,
+				187438F82AE79E2D0049C737 /* SleepTrackerTests */,
+				187439022AE79E2D0049C737 /* SleepTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		187438E72AE79E2B0049C737 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187438F42AE79E2D0049C737 /* Preview Assets.xcassets in Resources */,
+				187438F12AE79E2D0049C737 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187438F72AE79E2D0049C737 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187439012AE79E2D0049C737 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		187438E52AE79E2B0049C737 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187438EF2AE79E2B0049C737 /* ContentView.swift in Sources */,
+				187438ED2AE79E2B0049C737 /* SleepTrackerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187438F52AE79E2D0049C737 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187438FE2AE79E2D0049C737 /* SleepTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187438FF2AE79E2D0049C737 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187439082AE79E2D0049C737 /* SleepTrackerUITests.swift in Sources */,
+				1874390A2AE79E2D0049C737 /* SleepTrackerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		187438FB2AE79E2D0049C737 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 187438E82AE79E2B0049C737 /* SleepTracker */;
+			targetProxy = 187438FA2AE79E2D0049C737 /* PBXContainerItemProxy */;
+		};
+		187439052AE79E2D0049C737 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 187438E82AE79E2B0049C737 /* SleepTracker */;
+			targetProxy = 187439042AE79E2D0049C737 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1874390B2AE79E2D0049C737 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1874390C2AE79E2D0049C737 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1874390E2AE79E2D0049C737 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SleepTracker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SleepTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1874390F2AE79E2D0049C737 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SleepTracker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SleepTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		187439112AE79E2D0049C737 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SleepTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SleepTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SleepTracker";
+			};
+			name = Debug;
+		};
+		187439122AE79E2D0049C737 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SleepTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SleepTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SleepTracker";
+			};
+			name = Release;
+		};
+		187439142AE79E2D0049C737 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SleepTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SleepTracker;
+			};
+			name = Debug;
+		};
+		187439152AE79E2D0049C737 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SleepTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SleepTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		187438E42AE79E2B0049C737 /* Build configuration list for PBXProject "SleepTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1874390B2AE79E2D0049C737 /* Debug */,
+				1874390C2AE79E2D0049C737 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1874390D2AE79E2D0049C737 /* Build configuration list for PBXNativeTarget "SleepTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1874390E2AE79E2D0049C737 /* Debug */,
+				1874390F2AE79E2D0049C737 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		187439102AE79E2D0049C737 /* Build configuration list for PBXNativeTarget "SleepTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187439112AE79E2D0049C737 /* Debug */,
+				187439122AE79E2D0049C737 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		187439132AE79E2D0049C737 /* Build configuration list for PBXNativeTarget "SleepTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187439142AE79E2D0049C737 /* Debug */,
+				187439152AE79E2D0049C737 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 187438E12AE79E2B0049C737 /* Project object */;
+}
