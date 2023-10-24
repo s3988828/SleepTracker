@@ -14,6 +14,10 @@
 		187438FE2AE79E2D0049C737 /* SleepTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187438FD2AE79E2D0049C737 /* SleepTrackerTests.swift */; };
 		187439082AE79E2D0049C737 /* SleepTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187439072AE79E2D0049C737 /* SleepTrackerUITests.swift */; };
 		1874390A2AE79E2D0049C737 /* SleepTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187439092AE79E2D0049C737 /* SleepTrackerUITestsLaunchTests.swift */; };
+		1874391A2AE79FB40049C737 /* SleepData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187439192AE79FB40049C737 /* SleepData.swift */; };
+		1874391D2AE7A0390049C737 /* AddSleepDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1874391C2AE7A0390049C737 /* AddSleepDataView.swift */; };
+		1874391F2AE7A07D0049C737 /* SleepReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1874391E2AE7A07D0049C737 /* SleepReportView.swift */; };
+		187439682AE7B3810049C737 /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = 187439672AE7B3810049C737 /* Documentation.docc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		187439032AE79E2D0049C737 /* SleepTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SleepTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		187439072AE79E2D0049C737 /* SleepTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepTrackerUITests.swift; sourceTree = "<group>"; };
 		187439092AE79E2D0049C737 /* SleepTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		187439192AE79FB40049C737 /* SleepData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepData.swift; sourceTree = "<group>"; };
+		1874391C2AE7A0390049C737 /* AddSleepDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSleepDataView.swift; sourceTree = "<group>"; };
+		1874391E2AE7A07D0049C737 /* SleepReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepReportView.swift; sourceTree = "<group>"; };
+		187439672AE7B3810049C737 /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; name = Documentation.docc; path = ../../../../../Documentation.docc; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +102,9 @@
 		187438EB2AE79E2B0049C737 /* SleepTracker */ = {
 			isa = PBXGroup;
 			children = (
+				187439662AE7B3280049C737 /* SleepTrackerDoc */,
+				1874391B2AE7A0210049C737 /* View */,
+				187439182AE79FA60049C737 /* Model */,
 				187438EC2AE79E2B0049C737 /* SleepTrackerApp.swift */,
 				187438EE2AE79E2B0049C737 /* ContentView.swift */,
 				187438F02AE79E2D0049C737 /* Assets.xcassets */,
@@ -125,6 +136,31 @@
 				187439092AE79E2D0049C737 /* SleepTrackerUITestsLaunchTests.swift */,
 			);
 			path = SleepTrackerUITests;
+			sourceTree = "<group>";
+		};
+		187439182AE79FA60049C737 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				187439192AE79FB40049C737 /* SleepData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1874391B2AE7A0210049C737 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1874391C2AE7A0390049C737 /* AddSleepDataView.swift */,
+				1874391E2AE7A07D0049C737 /* SleepReportView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		187439662AE7B3280049C737 /* SleepTrackerDoc */ = {
+			isa = PBXGroup;
+			children = (
+				187439672AE7B3810049C737 /* Documentation.docc */,
+			);
+			path = SleepTrackerDoc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +293,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1874391D2AE7A0390049C737 /* AddSleepDataView.swift in Sources */,
+				187439682AE7B3810049C737 /* Documentation.docc in Sources */,
+				1874391F2AE7A07D0049C737 /* SleepReportView.swift in Sources */,
 				187438EF2AE79E2B0049C737 /* ContentView.swift in Sources */,
+				1874391A2AE79FB40049C737 /* SleepData.swift in Sources */,
 				187438ED2AE79E2B0049C737 /* SleepTrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
